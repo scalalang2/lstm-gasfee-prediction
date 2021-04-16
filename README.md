@@ -7,3 +7,7 @@ LSTM을 이용한 블록체인 네트워크 수요 예측 모델
 
 ## Submission
 본 레포지토리에서 작성한 소스코드는 [2021 하계정보과학회](http://kiise.or.kr/conference/kcc/2021/)에서 제출할 논문에서 사용한다.
+
+## Components
+* [databot](./databot)
+    * 온-체인 데이터 수집 봇 (블록, 트랜잭션, 가스 수수료, 시간 등)
