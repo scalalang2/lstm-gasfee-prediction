@@ -28,7 +28,9 @@ let web3 = new Web3(ethUrl)
 
 function saveBlockNunmber(blockNumber) {
     fs.writeFile('blockNumber.txt', blockNumber, err => {
-        console.error(err)
+        if(err) {
+            console.error(err);
+        }
     })
 }
 
